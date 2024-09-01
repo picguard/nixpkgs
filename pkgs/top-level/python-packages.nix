@@ -12472,6 +12472,8 @@ self: super: with self; {
 
   pyspcwebgw = callPackage ../development/python-modules/pyspcwebgw { };
 
+  pyspeex-noise = callPackage ../development/python-modules/pyspeex-noise { };
+
   pyspellchecker = callPackage ../development/python-modules/pyspellchecker { };
 
   pyspf = callPackage ../development/python-modules/pyspf { };
