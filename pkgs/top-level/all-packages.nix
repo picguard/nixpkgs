@@ -31389,8 +31389,6 @@ with pkgs;
 
   lens = callPackage ../applications/networking/cluster/lens { };
 
-  openlens = callPackage ../applications/networking/cluster/openlens { };
-
   leo-editor = libsForQt5.callPackage ../applications/editors/leo-editor { };
 
   libkiwix = callPackage ../applications/misc/kiwix/lib.nix { };
